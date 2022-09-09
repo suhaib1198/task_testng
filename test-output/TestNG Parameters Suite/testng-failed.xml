@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Parameters Suite]">
+  <test thread-count="5" name="RectangleTest(failed)">
+    <parameter name="val3" value="15"/>
+    <parameter name="val2" value="-5"/>
+    <parameter name="val1" value="-3"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="Rectangle" invocation-numbers="0"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- RectangleTest(failed) -->
+  <test thread-count="5" name="SquareTest(failed)">
+    <parameter name="val3" value="6"/>
+    <parameter name="val2" value="3"/>
+    <parameter name="val1" value="2"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Square" invocation-numbers="0"/>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- SquareTest(failed) -->
+  <test thread-count="5" name="TriangleTest(failed)">
+    <parameter name="val3" value="2"/>
+    <parameter name="val2" value="2"/>
+    <parameter name="val1" value="-2"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="Triangle" invocation-numbers="0"/>
+          <include name="End"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- TriangleTest(failed) -->
+  <test thread-count="5" name="TrapezoidTest(failed)">
+    <parameter name="val4" value="15"/>
+    <parameter name="val3" value="3"/>
+    <parameter name="val2" value="4"/>
+    <parameter name="val1" value="4"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+          <include name="Trapezoid" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- TrapezoidTest(failed) -->
+  <test thread-count="5" name="EllipseTest(failed)">
+    <parameter name="val3" value="3.141592653589793"/>
+    <parameter name="val2" value="2"/>
+    <parameter name="val1" value="1"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+          <include name="Ellipse" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- EllipseTest(failed) -->
+  <test thread-count="5" name="ParallelogramTest(failed)">
+    <parameter name="val3" value="8"/>
+    <parameter name="val2" value="3"/>
+    <parameter name="val1" value="2"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="Parallelogram" invocation-numbers="0"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- ParallelogramTest(failed) -->
+  <test thread-count="5" name="SectorTest(failed)">
+    <parameter name="val3" value="14"/>
+    <parameter name="val2" value="8"/>
+    <parameter name="val1" value="2"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+          <include name="Sector" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- SectorTest(failed) -->
+  <test thread-count="5" name="CircleTest(failed)">
+    <parameter name="val2" value="12.566370614359172"/>
+    <parameter name="val1" value="-2"/>
+    <classes>
+      <class name="TestDriver">
+        <methods>
+          <include name="Done"/>
+          <include name="End"/>
+          <include name="start"/>
+          <include name="Shapes"/>
+          <include name="Circle" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestDriver -->
+    </classes>
+  </test> <!-- CircleTest(failed) -->
+</suite> <!-- Failed suite [TestNG Parameters Suite] -->

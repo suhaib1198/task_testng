@@ -1,0 +1,251 @@
+<suite name="TestNG Parameters Suite">
+
+   
+   
+   
+   
+   <test name="Rectangle">
+   
+   <parameter name="val1" value="3" />
+   <parameter name="val2" value="5" />
+    <parameter name="val3" value="15" />
+      <classes>
+      <methods>
+      <include name="Rectangle"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+   </test>
+   <test name="RectangleTest">
+   
+   <parameter name="val1" value="-3" />
+   <parameter name="val2" value="-5" />
+    <parameter name="val3" value="15" />
+      <classes>
+      <methods>
+      <include name="Rectangle"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+   </test>
+   
+   
+   
+   
+    <test name="Square">
+   
+   <parameter name="val1" value="3" />
+   <parameter name="val2" value="3" />
+   <parameter name="val3" value="9" />
+   
+      <classes>
+       <methods>
+      <include name="Square"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+    <test name="SquareTest">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="3" />
+   <parameter name="val3" value="6" />
+   
+      <classes>
+       <methods>
+      <include name="Square"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   
+   <test name="Triangle">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="2" />
+   <parameter name="val3" value="2" />
+   
+      <classes>
+       <methods>
+      <include name="Triangle"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   <test name="TriangleTest">
+   
+   <parameter name="val1" value="-2" />
+   <parameter name="val2" value="2" />
+   <parameter name="val3" value="2" />
+   
+      <classes>
+       <methods>
+      <include name="Triangle"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   
+  
+   <test name="Trapezoid">
+   
+   <parameter name="val1" value="4" />
+   <parameter name="val2" value="6" />
+   <parameter name="val3" value="3" />
+   <parameter name="val4" value="15" />
+   
+      <classes>
+       <methods>
+      <include name="Trapezoid"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   <test name="TrapezoidTest">
+   
+   <parameter name="val1" value="4" />
+   <parameter name="val2" value="4" />
+   <parameter name="val3" value="3" />
+   <parameter name="val4" value="15" />
+   
+      <classes>
+       <methods>
+      <include name="Trapezoid"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   
+   <test name="Ellipse">
+   
+   <parameter name="val1" value="1" />
+   <parameter name="val2" value="1" />
+   <parameter name="val3" value="3.141592653589793" />
+   
+      <classes>
+       <methods>
+      <include name="Ellipse"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+    <test name="EllipseTest">
+   
+   <parameter name="val1" value="1" />
+   <parameter name="val2" value="2" />
+   <parameter name="val3" value="3.141592653589793" />
+   
+      <classes>
+       <methods>
+      <include name="Ellipse"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   
+   
+   <test name="Parallelogram">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="2" />
+   <parameter name="val3" value="4" />
+   
+      <classes>
+       <methods>
+      <include name="Parallelogram"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   <test name="ParallelogramTest">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="3" />
+   <parameter name="val3" value="8" />
+   
+      <classes>
+       <methods>
+      <include name="Parallelogram"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   <test name="Sector">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="8" />
+   <parameter name="val3" value="16" />
+   
+   
+      <classes>
+       <methods>
+      <include name="Sector"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   <test name="SectorTest">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="8" />
+   <parameter name="val3" value="14" />
+   
+   
+      <classes>
+       <methods>
+      <include name="Sector"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   
+   
+   <test name="Circle">
+   
+   <parameter name="val1" value="2" />
+   <parameter name="val2" value="12.566370614359172" />
+   
+      <classes>
+       <methods>
+      <include name="Circle"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   <test name="CircleTest">
+   
+   <parameter name="val1" value="-2" />
+   <parameter name="val2" value="12.566370614359172" />
+   
+      <classes>
+       <methods>
+      <include name="Circle"/>
+         <class name="TestDriver" />
+          </methods>
+      </classes>
+      
+   </test>
+   
+   
+   
+   
+</suite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TrapezoidTest">
+        <methods>
+          <include name="Trapezoidtest"/>
+        </methods>
+      </class> <!-- TrapezoidTest -->
+      <class name="SectorTest">
+        <methods>
+          <include name="Sectortest"/>
+        </methods>
+      </class> <!-- SectorTest -->
+      <class name="EllipseTest">
+        <methods>
+          <include name="elipsetest"/>
+        </methods>
+      </class> <!-- EllipseTest -->
+      <class name="SquareTest">
+        <methods>
+          <include name="Squaretest"/>
+        </methods>
+      </class> <!-- SquareTest -->
+      <class name="TriangleTest">
+        <methods>
+          <include name="Triangletest"/>
+        </methods>
+      </class> <!-- TriangleTest -->
+      <class name="RectangleTest">
+        <methods>
+          <include name="Rectangletest"/>
+        </methods>
+      </class> <!-- RectangleTest -->
+      <class name="ParallelogramTest">
+        <methods>
+          <include name="Parallelogramtest"/>
+        </methods>
+      </class> <!-- ParallelogramTest -->
+      <class name="CircleTest">
+        <methods>
+          <include name="Circletest"/>
+        </methods>
+      </class> <!-- CircleTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
